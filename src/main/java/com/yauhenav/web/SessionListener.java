@@ -1,11 +1,11 @@
-package les11.web;
+package com.yauhenav.web;
 
 import javax.servlet.http.HttpSessionListener;
 import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSession;
 
-import les11.logic.service.*;
-import les11.logic.exception.ServiceException;
+import com.yauhenav.logic.service.*;
+import com.yauhenav.logic.exception.ServiceException;
 
 /**
  * Created by yauhenav on 9.5.17.

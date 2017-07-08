@@ -1,11 +1,11 @@
-package les11.logic.mysql;
+package com.yauhenav.logic.mysql;
 
 import java.sql.*;
 import java.util.*;
 
-import les11.logic.dao.*;
-import les11.logic.dto.*;
-import les11.logic.exception.*;
+import com.yauhenav.logic.dao.*;
+import com.yauhenav.logic.dto.*;
+import com.yauhenav.logic.exception.*;
 
 public class MySqlSubjectDao implements SubjectDao {
 

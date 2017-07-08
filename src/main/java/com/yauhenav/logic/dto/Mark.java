@@ -1,4 +1,4 @@
-package les11.logic.dto;
+package com.yauhenav.logic.dto;
 
 public class Mark {
     private int id;

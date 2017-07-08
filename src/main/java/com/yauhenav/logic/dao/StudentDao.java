@@ -1,9 +1,9 @@
-package les11.logic.dao;
+package com.yauhenav.logic.dao;
 
 import java.util.*;
 
-import les11.logic.dto.*;
-import les11.logic.exception.*;
+import com.yauhenav.logic.dto.*;
+import com.yauhenav.logic.exception.*;
 
 public interface StudentDao {
 

@@ -1,4 +1,4 @@
-package les11.logic.dto;
+package com.yauhenav.logic.dto;
 
 public class Subject {
     private int id;

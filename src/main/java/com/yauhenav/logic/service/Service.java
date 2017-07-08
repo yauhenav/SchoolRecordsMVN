@@ -1,11 +1,11 @@
-package les11.logic.service;
+package com.yauhenav.logic.service;
 
 import java.util.*;
 
-import les11.logic.dao.*;
-import les11.logic.dto.*;
-import les11.logic.exception.*;
-import les11.logic.mysql.*;
+import com.yauhenav.logic.dao.*;
+import com.yauhenav.logic.dto.*;
+import com.yauhenav.logic.exception.*;
+import com.yauhenav.logic.mysql.*;
 
 public class Service {
 

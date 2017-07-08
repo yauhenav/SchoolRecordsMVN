@@ -1,11 +1,11 @@
-package les11.logic.mysql;
+package com.yauhenav.logic.mysql;
 
 import java.sql.*;
 import java.util.*;
 import java.io.*;
 
-import les11.logic.dao.*;
-import les11.logic.exception.*;
+import com.yauhenav.logic.dao.*;
+import com.yauhenav.logic.exception.*;
 
 public class MySqlDaoFactory implements DaoFactory {
 
@@ -16,7 +16,7 @@ public class MySqlDaoFactory implements DaoFactory {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Properties props = new Properties();
-            InputStream stream = this.getClass().getResourceAsStream("/les11/config.properties");
+            InputStream stream = this.getClass().getResourceAsStream("/config.properties");
             props.load(stream);
             this.connection =  DriverManager.getConnection(props.getProperty("url"), props.getProperty("user"), props.getProperty("password"));
         } catch (SQLException exc) {

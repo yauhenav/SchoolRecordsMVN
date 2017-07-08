@@ -1,4 +1,4 @@
-package les11.logic.exception;
+package com.yauhenav.logic.exception;
 
 /**
  * Created by yauhenav on 18.5.17.

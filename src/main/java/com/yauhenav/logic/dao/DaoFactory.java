@@ -1,6 +1,6 @@
-package les11.logic.dao;
+package com.yauhenav.logic.dao;
 
-import les11.logic.exception.*;
+import com.yauhenav.logic.exception.*;
 
 public interface DaoFactory {
 

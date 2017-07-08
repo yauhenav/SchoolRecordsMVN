@@ -1,4 +1,4 @@
-package les11.web;
+package com.yauhenav.web;
 
 import java.io.*;
 import java.util.*;
@@ -9,9 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import les11.logic.service.*;
-import les11.logic.dto.*;
-import les11.logic.exception.*;
+import com.yauhenav.logic.service.*;
+import com.yauhenav.logic.dto.*;
+import com.yauhenav.logic.exception.*;
 
 public class SchoolRecordsJSP extends HttpServlet {
 
